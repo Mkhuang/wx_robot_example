@@ -8,7 +8,7 @@ class WxRobot(object):
     """ Wechat robot
     """
 
-    def __init__(self, hot_reload=False, default_msg=u'暂未支持'):
+    def __init__(self, hot_reload=False, default_msg=u'暂未支持1'):
         self.hot_reload = hot_reload
         self.wx = Core()
         self.handlers = []
